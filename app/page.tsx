@@ -53,9 +53,9 @@ export default function SunsetNotice() {
                   rel="noopener noreferrer"
                   className="text-orange-300 hover:text-orange-200 underline underline-offset-4 transition-colors font-semibold"
                 >
-                  Algodevs website
+                  Algo-Git
                 </a>{" "}
-                and you can now check your contributions on the global leaderboard.
+                website and you can now check your contributions on the global leaderboard.
               </p>
             </div>
 
