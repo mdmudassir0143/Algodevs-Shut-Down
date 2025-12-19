@@ -36,17 +36,26 @@ export default function SunsetNotice() {
 
             <div className="space-y-4">
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-red-400 to-rose-300 drop-shadow-2xl">
-                Website
+                Algo Git Squad
               </h1>
               <div className="space-y-2">
-                <p className="text-3xl sm:text-4xl font-bold text-orange-100 tracking-wide">Has Been Shut Down</p>
+                <p className="text-3xl sm:text-4xl font-bold text-orange-100 tracking-wide">Program Has Ended</p>
                 <div className="h-1 w-24 mx-auto bg-gradient-to-r from-orange-500 via-red-500 to-rose-500" />
               </div>
             </div>
 
             <div className="space-y-4 bg-gradient-to-br from-slate-900/80 via-slate-900/60 to-slate-800/80 backdrop-blur-xl rounded-2xl p-6 sm:p-8 shadow-2xl border border-orange-500/20">
               <p className="text-base sm:text-lg text-orange-100/80 leading-relaxed">
-                You can now check your contributions in the global leaderboard.
+                You can still visit{" "}
+                <a
+                  href="https://algo-dev-tracker.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-orange-300 hover:text-orange-200 underline underline-offset-4 transition-colors font-semibold"
+                >
+                  Algodevs website
+                </a>{" "}
+                and you can now check your contributions on the global leaderboard.
               </p>
             </div>
 
